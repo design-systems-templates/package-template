@@ -3,7 +3,6 @@
   "version": "{{version}}",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./dist",
   "repository": "{{repoUrl}}",
   "author": "{{authorName}} {{authorEmail}}",
   "contributors": ["{{authorName}} {{authorEmail}}"],
@@ -11,7 +10,6 @@
   "scripts": {
     "clean": "ds clean",
     "build": "ds build",
-    "check-types": "ds check-types",
     "start": "ds build --watch",
     "test": "ds test",
     "lint": "ds lint",
