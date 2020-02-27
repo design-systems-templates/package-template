@@ -11,13 +11,12 @@
   "scripts": {
     "clean": "ds clean",
     "build": "ds build",
-    "check-types": "ds check-types",
     "start": "ds build --watch",
     "test": "ds test",
     "lint": "ds lint",
     "size": "ds size"
   },
-  "files": ["dist", "!*.test.*", "!__snapshots__", "!__tests__"],
+  "files": ["dist", "src", "!*.test.*", "!__snapshots__", "!__tests__"],
   "dependencies": {
     "@babel/runtime": "~7.5.4"
   }
