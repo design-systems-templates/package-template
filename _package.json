@@ -15,7 +15,7 @@
     "lint": "ds lint",
     "size": "ds size"
   },
-  "files": ["dist", "!*.test.*", "!__snapshots__", "!__tests__"],
+  "files": ["dist", "src", "!*.test.*", "!__snapshots__", "!__tests__"],
   "dependencies": {
     "@babel/runtime": "~7.5.4"
   }
